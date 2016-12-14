@@ -18,12 +18,12 @@
 
 		protected static function getBdd() {
 			if(self::$bdd == null){
-				require './bin/Cinema.php';
+				require './bin/Cannes.php';
 
 				self::$bdd = new PDO('mysql:host='.$host .';dbname='.$nombase ,$user,$password);
 				self::$bdd->exec('SET NAMES utf8');
 				self::$bdd->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-			}   
+			}
 			return self::$bdd;
 		}
 	}
