@@ -1,7 +1,6 @@
 <?php
 	$titre="Liste des VIP";
 	ob_start();
-	$contenu=ob_get_clean();
     echo '<table class="ac_bord">
 	<tr>
 		<th>Nom</th>
@@ -19,6 +18,7 @@
 				<td></td>
 				</tr>';
 	}
+	$contenu=ob_get_clean();
 	require("Views/layout.php");
-	
+
 ?>

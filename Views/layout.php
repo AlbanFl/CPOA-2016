@@ -18,6 +18,6 @@ echo'<!DOCTYPE html>
         </ul>
     </nav>';
 
-    echo'</body>
+    echo $contenu.'</body>
     </html>';
 ?>
