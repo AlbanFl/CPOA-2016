@@ -5,6 +5,9 @@
 	require("Model/VIPManager.php");
   $vm = new VIPManager();
 	$results = $vm -> getVIP();
-
-  require("Views/vip.php");
+	if(!isset($_GET["action"])=='listeVIP'){
+		require("Views/connexion.php");
+	}else{
+  	require("Views/vip.php");
+	}
 ?>
