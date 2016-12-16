@@ -19,7 +19,3 @@
 	require("Views/layout.php");
 
 ?>
-mdr
-
-
-lol
