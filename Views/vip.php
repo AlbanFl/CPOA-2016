@@ -5,7 +5,7 @@
 	<tr>
 		<th>Nom</th>
 		<th>Type</th>
-		<th>Sexe</th>
+		<th>Genre</th>
 		<th>Echanges et actions</th>
 		<th>Modifier</th>
 	</tr>';
