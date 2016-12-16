@@ -7,17 +7,18 @@
 		<th>Type</th>
 		<th>Sexe</th>
 		<th>Echanges et actions</th>
-		<th></th>
+		<th>Modifier</th>
 	</tr>';
 	foreach ($results as $ligne){
 				echo '<tr>
 				<td>'.$ligne['nomPersonne'].'</td>
 				<td>'.$ligne['typeVIP'].'</td>
 				<td>'.$ligne['genrePersonne'].'</td>
-				<td></td>
-				<td></td>
+				<td><a href="index.php?action=ListeVIP">Détails</a></td>
+				<td><a href="index.php?action=modifierVip">modifier</a></td>
 				</tr>';
 	}
+	echo '</table>';
 	$contenu=ob_get_clean();
 	require("Views/layout.php");
 

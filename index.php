@@ -5,9 +5,17 @@
 	require("Model/VIPManager.php");
   $vm = new VIPManager();
 	$results = $vm -> getVIP();
-	if(!isset($_GET["action"])=='listeVIP'){
+	if(!isset($_GET["action"])){
 		require("Views/connexion.php");
-	}else{
-  	require("Views/vip.php");
+	}
+	else{
+
+		if($_GET["action"] == "listeVIP"){
+			require("Views/vip.php");
+		}
+
+		elseif ($_GET["action"] == "modifierVip") {
+			require("Views/modifier.php");
+		}
 	}
 ?>
