@@ -12,9 +12,9 @@ echo'<!DOCTYPE html>
 
     <nav>
         <ul>
-            <li class="active"><a href="vip.html">Liste des VIP</a></li>
-            <li><a href="AjoutVip.html">Ajouter un VIP</a></li>
-            <li><a href="connexion.html">Déconnexion</a></li>
+            <li class="active"><a href="./index.php?action=listeVIP">Liste des VIP</a></li>
+            <li><a href="./index.php?action=ajoutVIP">Ajouter un VIP</a></li>
+            <li><a href="./index.php">Déconnexion</a></li>
         </ul>
     </nav>';
 

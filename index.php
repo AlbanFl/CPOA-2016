@@ -17,5 +17,23 @@
 		elseif ($_GET["action"] == "modifierVip") {
 			require("Views/modifier.php");
 		}
+
+		elseif($_GET["action"] == "ajoutVIP"){
+			require("Views/ajoutVip.php");
+		}
+
+		elseif($_GET["action"] == "echangeAction"){
+			if(isset($_POST['echange'])){
+				require("Views/echange.php");
+			}
+
+			elseif(isset($_POST['action'])){
+				require("Views/action.php");
+			}
+
+			else{
+				require("Views/echangeAction.php");
+			}
+		}
 	}
 ?>

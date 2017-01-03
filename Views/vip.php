@@ -14,7 +14,7 @@
 				<td>'.$ligne['nomPersonne'].'</td>
 				<td>'.$ligne['typeVIP'].'</td>
 				<td>'.$ligne['genrePersonne'].'</td>
-				<td><a href="index.php?action=ListeVIP">Détails</a></td>
+				<td><a href="index.php?action=echangeAction">Détails</a></td>
 				<td><a href="index.php?action=modifierVip">modifier</a></td>
 				</tr>';
 	}

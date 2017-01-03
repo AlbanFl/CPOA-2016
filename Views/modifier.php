@@ -1,7 +1,7 @@
 <?php
 	$titre="Liste des VIP";
 	ob_start();
-  echo'<form method="post" action="vip.html">
+  echo'<form method="post" action="./index.php?action=listeVIP">
     <p>
       <label for="Nom">Nom :</label>
       <input type="text" name="nom" id="nom" />
@@ -13,6 +13,7 @@
        <input type="checkbox" name="Realisateur" id="Realisateur" /> <label for="Realisateur">Realisateur</label><br />
        <input type="checkbox" name="Producteur" id="Producteur" /> <label for="Producteur">Producteur</label><br />
 			 <input type="checkbox" name="Scenariste" id="Scenariste" /> <label for="Producteur">Scenariste</label><br />
+			 <input type="text" name="autre" placeholder="Autre">
    </p>
 
 	 <p>
