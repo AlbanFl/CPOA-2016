@@ -19,7 +19,7 @@
 		}
 
 		elseif($_GET["action"] == "ajoutVIP"){
-			require("Views/ajoutVip.php");
+			require("Views/ajoutVIP.php");
 		}
 
 		elseif($_GET["action"] == "echangeAction"){
