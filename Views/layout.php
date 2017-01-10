@@ -12,8 +12,8 @@ echo'<!DOCTYPE html>
 
     <nav>
         <ul>
-            <li class="active"><a href="./index.php?action=listeVIP">Liste des VIP</a></li>
-            <li><a href="./index.php?action=ajoutVIP">Ajouter un VIP</a></li>
+            <li class="'.$activeList.'"><a href="./index.php?action=listeVIP">Liste des VIP</a></li>
+            <li class="'.$activeAdd.'"><a href="./index.php?action=ajoutVIP">Ajouter un VIP</a></li>
             <li><a href="./index.php">Déconnexion</a></li>
         </ul>
     </nav>';

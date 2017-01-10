@@ -1,6 +1,7 @@
 body{
   background-color: black;
   color: white;
+
 }
 
 a{
@@ -9,14 +10,20 @@ a{
 }
 
 nav {
-  background-color: grey;
-  border-radius: 5px;
+  background-image: url("../img/Test.png");
+  background-size: 220%;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-bottom:  2px solid rgba(255, 0, 0, 0.5);
+  margin-bottom: 1%;
+  padding-bottom: 4%;
 }
 nav ul:first-of-type{
   text-align: center;
 }
 
 nav li {
+  margin-top: 2%;
   list-style: none;
   display: inline-block;
   text-decoration: none;
@@ -36,7 +43,8 @@ a:hover{
 table{
   margin: auto;
   border-radius: 5px;
-  background-color: #282200;
+  border: solid 1px rgba(255, 0, 0, 0.5);
+  background-color: #282516;
   text-align: center;
   width: 50%;
 }
@@ -44,7 +52,7 @@ table{
 
 table tr{
   color: white;
-  
+
 }
 
 form{
@@ -55,13 +63,28 @@ label
 {
 	display: inline-block;
 	width: 150px;
-  
+
 }
 
 .active{
-  background-color: black;
+  background-color: rgba(255, 0, 0, 0.5);
+  height: 2px;
 }
 
 .active a:hover{
-  color: gold;
+  color: white;
+}
+
+.image_bouton{
+   background-image: url("../img/bouton.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: black;
+   width: 6em;
+   height: 6em;
+   border: none;
+}
+
+.image_bouton:hover{
+  opacity: 0.5;
 }

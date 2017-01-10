@@ -22,7 +22,7 @@
       <input type="radio" name="genre" value="female"> Femme<br/>
       <input type="radio" name="genre" value="other"> Autre
 	 </p>
-      <input type="submit" value="Ajouter" />
+      <input class="image_bouton" type="submit" value=""/>
   </form>';
   $contenu=ob_get_clean();
 	require("Views/layout.php");
